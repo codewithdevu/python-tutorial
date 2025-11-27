@@ -20,7 +20,7 @@ def speak(text):
 def processcommand(c):
     c = c.lower()
     if "open google" in c:
-        webbrowser.open("https://ok.porn")
+        webbrowser.open("https://google.com")
     elif "open facebook" in c:
         webbrowser.open("https://facebook.com")
     elif "open youtube" in c:
